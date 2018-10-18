@@ -1,7 +1,6 @@
 PromiseDefer.js
 ===============
 [![NPM version][npm-badge]](http://badge.fury.io/js/promise-defer)
-[npm-badge]: https://badge.fury.io/js/promise-defer.png
 
 **PromiseDefer.js** is a small `Promise.defer` "polyfill" to create
 a [`Deferred`][deferred] object you can **later resolve or reject** and get
@@ -11,6 +10,7 @@ a `Promise` out of. It used to exist in browsers and JavaScript engines as
 PromiseDefer.js uses the **native ES6 `Promise` by default**, but you can pass
 it another **Promises/A+ compatible** constructor function.
 
+[npm-badge]: https://img.shields.io/npm/v/promise-defer.svg
 [deferred]: https://developer.mozilla.org/en-US/docs/Mozilla/JavaScript_code_modules/Promise.jsm/Deferred
 [promisesa+]: https://promisesaplus.com/
 
